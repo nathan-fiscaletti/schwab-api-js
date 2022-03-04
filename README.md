@@ -2,6 +2,12 @@
 
 **This is not an official API or even a stable recreation of a Charles Schwab API. Functionality may change with any updates made by Schwab.**
 
+[![Sponsor Me!](https://img.shields.io/badge/%F0%9F%92%B8-Sponsor%20Me!-blue)](https://github.com/sponsors/nathan-fiscaletti)
+[![Downloads](https://img.shields.io/npm/dw/schwab-api)](https://www.npmjs.com/package/schwab-api)
+[![GitHub stars](https://img.shields.io/github/stars/nathan-fiscaletti/schwab-api-js)](https://github.com/nathan-fiscaletti/schwab-api-js/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/nathan-fiscaletti/schwab-api-js)](https://github.com/nathan-fiscaletti/schwab-api-js/issues)
+[![GitHub license](https://img.shields.io/github/license/nathan-fiscaletti/schwab-api-js)](https://github.com/nathan-fiscaletti/schwab-api-js/blob/master/LICENSE)
+
 This project was originally ported from the [itsjafer/schwab-api](https://github.com/itsjafer/schwab-api) Python library, but has diverged significantly in it's logic from the original source material. Nevertheless, if you enjoy this project, go give that one some love!
 
 This package enables buying and selling securities programmatically on Charles Schwab. Currently, we use a headless browser to automate logging in in order to get authorization cookies. All other functionality is done through web requests made to Schwab's own API.
