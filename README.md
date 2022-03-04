@@ -28,7 +28,7 @@ Here's some code that logs in, gets all account holdings, and makes a stock purc
 
 ```js
 // Import Schwab
-const { Schwab, TradeType, Logging: { defaults: { logger } } } = require(`./`);
+const { Schwab, TradeType, Logging: { defaults: { logger } } } = require(`schwab-api`);
 
 // Initialize a new instance of the Schwab class and initialize it
 // with youre credentials.
